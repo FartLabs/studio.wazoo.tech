@@ -14,6 +14,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Wazoo — Web Design for Artists & Creative Professionals",
   description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. Beautiful design, fast performance, delivered in 2-4 weeks.",
+  icons: {
+    icon: "/wazoo-logo.png",
+    shortcut: "/wazoo-logo.png",
+    apple: "/wazoo-logo.png",
+  },
   openGraph: {
     title: "Wazoo — Web Design for Artists & Creative Professionals",
     description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",

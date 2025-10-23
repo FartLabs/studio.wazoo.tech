@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center gap-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_jxg5q1jxg5q1jxg5-3tb1ivKGlxWz8uFq0jYNKuREqR5HuK.png"
+              src="/wazoo-logo.png"
               alt="Wazoo"
               width={40}
               height={40}
