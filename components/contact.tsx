@@ -27,12 +27,14 @@ export function Contact() {
     >
       <div className="container mx-auto max-w-4xl">
         <div className="mb-12 sm:mb-16 text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal mb-4 text-balance">
-            Let&apos;s create something exceptional together
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4 text-balance">
+            Ready to bring your creative vision online?
           </h2>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            If you would like to discuss a project or just say hi, we&apos;re always
-            down to chat.
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-2">
+            Let&apos;s discuss your project and see if we&apos;re a good fit.
+          </p>
+          <p className="text-sm text-muted-foreground/80">
+            Most inquiries answered within 24 hours • Free 30-minute consultation
           </p>
         </div>
 
@@ -66,6 +68,23 @@ export function Contact() {
                 required
               />
             </div>
+          </div>
+          <div className="col-span-full">
+            <label htmlFor="projectType" className="block text-sm mb-2">
+              Project Type
+            </label>
+            <select
+              id="projectType"
+              className="w-full px-3 py-2 border border-input rounded-md bg-background"
+              required
+            >
+              <option value="">Select a project type</option>
+              <option value="portfolio">Portfolio Website</option>
+              <option value="ecommerce">Ecommerce Store</option>
+              <option value="brand">Brand Identity & Web Design</option>
+              <option value="optimization">Website Optimization</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
           </div>
           <div>
             <label htmlFor="message" className="block text-sm mb-2">

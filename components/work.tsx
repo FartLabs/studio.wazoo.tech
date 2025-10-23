@@ -5,25 +5,32 @@ const projects = [
   {
     title: "Meridian",
     description: "Building a seamless path to better digital health",
+    client: "Healthcare Platform",
+    highlight: "Responsive design with 60% faster mobile load times",
     tags: ["Design", "Development", "Strategy"],
     image: "/modern-healthcare-app-interface-on-desktop.jpg",
   },
   {
     title: "Cascade Coffee",
-    description:
-      "Elevating artisan coffee culture through digital storytelling",
+    description: "Elevating artisan coffee culture through digital storytelling",
+    client: "Coffee Roaster",
+    highlight: "Custom Shopify build with integrated subscription system",
     tags: ["Design", "E-commerce", "Branding"],
     image: "/coffee-shop-mobile-app-with-product-photos.jpg",
   },
   {
     title: "Apex Architecture",
     description: "Distilling architectural impact to its spatial essence",
+    client: "Architecture Firm",
+    highlight: "Portfolio site with dynamic project filtering",
     tags: ["Design", "Development", "Content"],
     image: "/minimalist-architecture-portfolio-website.jpg",
   },
   {
     title: "Lumina",
     description: "Bringing clarity and elegance to financial technology",
+    client: "Fintech Startup",
+    highlight: "Dashboard design with improved user engagement",
     tags: ["Design", "Development", "UX"],
     image: "/modern-fintech-dashboard.png",
   },
@@ -37,7 +44,7 @@ export function Work() {
     >
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4">
             Selected work
           </h2>
         </div>
@@ -58,11 +65,14 @@ export function Work() {
                 />
               </div>
               <div className="p-6 sm:p-8">
-                <h3 className="text-xl sm:text-2xl font-normal mb-2">
+                <h3 className="text-xl sm:text-2xl font-display font-normal mb-2">
                   {project.title}
                 </h3>
-                <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
+                <p className="text-sm sm:text-base text-muted-foreground mb-2 leading-relaxed">
                   {project.description}
+                </p>
+                <p className="text-xs text-muted-foreground/80 mb-4 italic">
+                  {project.highlight}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (

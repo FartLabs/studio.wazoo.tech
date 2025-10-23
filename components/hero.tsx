@@ -4,16 +4,15 @@ export function Hero() {
       <div className="container mx-auto max-w-5xl">
         <div className="space-y-6 sm:space-y-8">
           <p className="text-sm sm:text-base text-muted-foreground">
-            Good afternoon
+            Web Design Studio
           </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal leading-tight text-balance">
-            We craft digital experiences that elevate brands and engage
-            audiences
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-normal leading-tight text-balance">
+            We design websites that help artists and creative professionals stand out online
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Wazoo is a web design studio dedicated to creating exceptional
-            digital products. We believe that great design is both beautiful and
-            functional, combining aesthetic excellence with technical precision.
+            A boutique web design studio specializing in portfolio websites, ecommerce stores, 
+            and brand identity for artists, photographers, and creative brands. Clean design, 
+            fast performance, and founder-led communication. Most projects delivered in 2-4 weeks.
           </p>
         </div>
       </div>

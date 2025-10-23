@@ -6,7 +6,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-normal mb-4">Wazoo</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A web design studio crafting exceptional digital experiences.
+              A boutique web design studio specializing in portfolio websites, ecommerce stores, 
+              and brand identity for artists, photographers, and creative professionals.
             </p>
           </div>
           <div>
