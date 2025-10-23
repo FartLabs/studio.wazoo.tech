@@ -1,45 +1,47 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
+// TODO: Add more images and projects.
+// - Trek Inside
+// - RomancePlanet
+
 const projects = [
   {
-    title: "Meridian",
-    description: "Building a seamless path to better digital health",
-    client: "Healthcare Platform",
-    highlight: "Responsive design with 60% faster mobile load times",
-    tags: ["Design", "Development", "Strategy"],
-    image: "/modern-healthcare-app-interface-on-desktop.jpg",
+    title: "Berryblue",
+    description: "Artist website • Portfolio",
+    url: "https://ethanthatonekid.github.io/berryblue.html",
+    image: "/berryblue.png",
   },
   {
-    title: "Cascade Coffee",
-    description: "Elevating artisan coffee culture through digital storytelling",
-    client: "Coffee Roaster",
-    highlight: "Custom Shopify build with integrated subscription system",
-    tags: ["Design", "E-commerce", "Branding"],
-    image: "/coffee-shop-mobile-app-with-product-photos.jpg",
+    title: "Wazoo Technologies",
+    description: "Marketing site • Design, build, performance",
+    url: "https://studio.wazoo.tech",
+    image: null,
   },
   {
-    title: "Apex Architecture",
-    description: "Distilling architectural impact to its spatial essence",
-    client: "Architecture Firm",
-    highlight: "Portfolio site with dynamic project filtering",
-    tags: ["Design", "Development", "Content"],
-    image: "/minimalist-architecture-portfolio-website.jpg",
+    title: "FartLabs",
+    description: "R&D lab • Brand and web",
+    url: "https://fartlabs.org",
+    image: null
   },
   {
-    title: "Lumina",
-    description: "Bringing clarity and elegance to financial technology",
-    client: "Fintech Startup",
-    highlight: "Dashboard design with improved user engagement",
-    tags: ["Design", "Development", "UX"],
-    image: "/modern-fintech-dashboard.png",
+    title: "Shop",
+    description: "Merch storefront • Theme and UX",
+    url: "https://shop.fartlabs.org",
+    image: null,
+  },
+  {
+    title: "JSONX",
+    description: "Developer tool • Docs and UI",
+    url: "https://jsonx.fart.tools",
+    image: null,
   },
 ];
 
 export function Work() {
   return (
     <section
-      id="work"
+      id="portfolio"
       className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-muted/30"
     >
       <div className="container mx-auto max-w-6xl">
@@ -47,43 +49,44 @@ export function Work() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4">
             Selected work
           </h2>
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
+            A few sites and tools from our ecosystem.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, index) => (
             <Card
               key={index}
               className="group overflow-hidden border-border hover:border-foreground/20 transition-all duration-300 cursor-pointer"
             >
+              {project.image && (
               <div className="aspect-[4/3] overflow-hidden bg-muted">
-                <Image
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  width={400}
-                  height={300}
+                  <Image
+                    src={project.image}
+                    alt={`${project.title} website screenshot`}
+                    width={400}
+                    height={300}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
+              )}
               <div className="p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-display font-normal mb-2">
                   {project.title}
                 </h3>
-                <p className="text-sm sm:text-base text-muted-foreground mb-2 leading-relaxed">
+                <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
                   {project.description}
                 </p>
-                <p className="text-xs text-muted-foreground/80 mb-4 italic">
-                  {project.highlight}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span
-                      key={tagIndex}
-                      className="text-xs px-3 py-1 bg-accent text-accent-foreground rounded-full"
+                <a
+                  href={project.url}
+                  target={project.url.startsWith('http') ? '_blank' : '_self'}
+                  rel={project.url.startsWith('http') ? 'noopener' : undefined}
+                  className="text-sm text-foreground hover:text-muted-foreground transition-colors"
+                  aria-label={`Visit ${project.title} project`}
                     >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+                  {project.url.replace('https://', '').replace('http://', '')} {project.url.startsWith('http') ? '↗' : '→'}
+                </a>
               </div>
             </Card>
           ))}

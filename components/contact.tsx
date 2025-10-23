@@ -1,24 +1,6 @@
-"use client";
-
-import type React from "react";
-
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 
 export function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
-  };
 
   return (
     <section
@@ -38,71 +20,22 @@ export function Contact() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
-              <label htmlFor="name" className="block text-sm mb-2">
-                Name
-              </label>
-              <Input
-                id="name"
-                type="text"
-                value={formData.name}
-                onChange={(e) =>
-                  setFormData({ ...formData, name: e.target.value })}
-                className="w-full"
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm mb-2">
-                Email
-              </label>
-              <Input
-                id="email"
-                type="email"
-                value={formData.email}
-                onChange={(e) =>
-                  setFormData({ ...formData, email: e.target.value })}
-                className="w-full"
-                required
-              />
-            </div>
-          </div>
-          <div className="col-span-full">
-            <label htmlFor="projectType" className="block text-sm mb-2">
-              Project Type
-            </label>
-            <select
-              id="projectType"
-              className="w-full px-3 py-2 border border-input rounded-md bg-background"
-              required
+        <div className="text-center">
+          <Button 
+            asChild 
+            size="lg" 
+            className="w-full sm:w-auto text-lg px-8 py-4"
+          >
+            <a 
+              href="https://etok.me/meet" 
+              target="_blank" 
+              rel="noopener"
+              className="inline-flex items-center justify-center"
             >
-              <option value="">Select a project type</option>
-              <option value="portfolio">Portfolio Website</option>
-              <option value="ecommerce">Ecommerce Store</option>
-              <option value="brand">Brand Identity & Web Design</option>
-              <option value="optimization">Website Optimization</option>
-              <option value="other">Other / Not Sure</option>
-            </select>
-          </div>
-          <div>
-            <label htmlFor="message" className="block text-sm mb-2">
-              Message
-            </label>
-            <Textarea
-              id="message"
-              value={formData.message}
-              onChange={(e) =>
-                setFormData({ ...formData, message: e.target.value })}
-              className="w-full min-h-[150px]"
-              required
-            />
-          </div>
-          <Button type="submit" size="lg" className="w-full sm:w-auto">
-            Send Message
+              Book a Free Consultation
+            </a>
           </Button>
-        </form>
+        </div>
       </div>
     </section>
   );

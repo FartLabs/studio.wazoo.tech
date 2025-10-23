@@ -37,10 +37,10 @@ export function Footer() {
             <h3 className="text-lg font-normal mb-4">Contact</h3>
             <div className="space-y-2">
               <a
-                href="mailto:hello@wazoo.studio"
+                href="mailto:ethan@wazoo.tech"
                 className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                hello@wazoo.studio
+                ethan@wazoo.tech
               </a>
             </div>
           </div>
