@@ -12,9 +12,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Wazoo — Web Design for Artists & Creative Professionals",
+  title: "Wazoo Web Design Studio",
   description:
-    "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. Beautiful design, fast performance, delivered in 2-4 weeks.",
+    "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. World-class design, fast performance, delivered with attention to detail.",
   icons: {
     icon: [
       { url: "/wazoo-logo.png", sizes: "32x32", type: "image/png" },

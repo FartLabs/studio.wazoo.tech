@@ -1,41 +1,58 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
-// TODO: Add more images and projects.
-// - Trek Inside
-// - RomancePlanet
-
 const projects = [
   {
     title: "Berryblue",
-    description: "Artist website • Portfolio",
+    description:
+      "Self-produced pop artist • Musical background infused into catchy, vulgar and upbeat songs",
     url: "https://ethanthatonekid.github.io/berryblue.html",
     image: "/berryblue.png",
   },
   {
+    title: "RomancePlanet",
+    description: "Electronic music artist • 1.5M+ monthly listeners",
+    url: "https://romanceplanet.vercel.app/",
+    image: "/romanceplanet.png",
+  },
+  {
+    title: "Trek Inside",
+    description:
+      "A visual archive of images from a trek inside the set of Star Trek: The Next Generation.",
+    url: "https://ethanthatonekid.github.io/trek-inside/",
+    image: "/trekinside.png",
+  },
+  {
     title: "FartLabs",
     description: "R&D lab • Brand and web",
-    url: "https://fartlabs.org",
-    image: null,
+    url: "https://fartlabs.org/",
+    image: "/fartlabs.png",
   },
   {
-    title: "Shop",
-    description: "Merch storefront • Theme and UX",
-    url: "https://shop.fartlabs.org",
-    image: null,
+    title: "jsonx",
+    description:
+      "Developer tool • Custom docs site and playground for the jsonx libraries",
+    url: "https://jsonx.fart.tools/",
+    image: "/jsonx.png",
   },
   {
-    title: "JSONX",
-    description: "Developer tool • Docs and UI",
-    url: "https://jsonx.fart.tools",
-    image: null,
+    title: "Looksie",
+    description: "Tinder for clothes AI platform",
+    url: "https://trylooksie.vercel.app/",
+    image: "/looksie.png",
+  },
+  {
+    title: "snfforms.com",
+    description: "Catalog of forms for the skilled nursing facility industry",
+    url: "https://snfforms.deno.dev/",
+    image: "/snfforms.png",
   },
 ];
 
 export function Work() {
   return (
     <section
-      id="portfolio"
+      id="work"
       className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-muted/30"
     >
       <div className="container mx-auto max-w-6xl">
@@ -55,13 +72,13 @@ export function Work() {
               className="group overflow-hidden border-border hover:border-foreground/20 transition-all duration-300 cursor-pointer"
             >
               {project.image && (
-                <div className="aspect-[4/3] overflow-hidden bg-muted">
+                <div className="aspect-[4/3] overflow-hidden bg-muted flex items-center justify-center">
                   <Image
                     src={project.image}
                     alt={`${project.title} website screenshot`}
                     width={400}
                     height={300}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               )}
@@ -79,8 +96,7 @@ export function Work() {
                   className="text-sm text-foreground hover:text-muted-foreground transition-colors"
                   aria-label={`Visit ${project.title} project`}
                 >
-                  {project.url.replace("https://", "").replace("http://", "")}{" "}
-                  {project.url.startsWith("http") ? "↗" : "→"}
+                  Open {project.url.startsWith("http") ? "↗" : "→"}
                 </a>
               </div>
             </Card>
