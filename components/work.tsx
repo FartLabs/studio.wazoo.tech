@@ -13,12 +13,6 @@ const projects = [
     image: "/berryblue.png",
   },
   {
-    title: "Wazoo Technologies",
-    description: "Marketing site • Design, build, performance",
-    url: "https://studio.wazoo.tech",
-    image: null,
-  },
-  {
     title: "FartLabs",
     description: "R&D lab • Brand and web",
     url: "https://fartlabs.org",
@@ -85,8 +79,7 @@ export function Work() {
                   className="text-sm text-foreground hover:text-muted-foreground transition-colors"
                   aria-label={`Visit ${project.title} project`}
                 >
-                  {project.url.replace("https://", "").replace("http://", "")}
-                  {" "}
+                  {project.url.replace("https://", "").replace("http://", "")}{" "}
                   {project.url.startsWith("http") ? "↗" : "→"}
                 </a>
               </div>

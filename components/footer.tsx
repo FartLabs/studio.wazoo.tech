@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 mb-8">
           <div>
-            <h3 className="text-lg font-normal mb-4">Wazoo</h3>
+            <h3 className="text-lg font-display mb-4">Wazoo Web Design</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A boutique web design studio specializing in portfolio websites,
               ecommerce stores, and brand identity for artists, photographers,
@@ -12,7 +12,7 @@ export function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-normal mb-4">Connect</h3>
+            <h3 className="text-lg font-display mb-4">Connect</h3>
             <div className="space-y-2">
               <a
                 href="#"
@@ -21,9 +21,17 @@ export function Footer() {
                 LinkedIn
               </a>
             </div>
+            <div className="space-y-2">
+              <a
+                href="https://wazoo.tech"
+                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Wazoo
+              </a>
+            </div>
           </div>
           <div>
-            <h3 className="text-lg font-normal mb-4">Contact</h3>
+            <h3 className="text-lg font-display mb-4">Contact</h3>
             <div className="space-y-2">
               <a
                 href="mailto:ethan@wazoo.tech"
@@ -32,11 +40,19 @@ export function Footer() {
                 ethan@wazoo.tech
               </a>
             </div>
+            <div className="space-y-2">
+              <a
+                href="https://etok.me/meet"
+                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Book a Free Consultation
+              </a>
+            </div>{" "}
           </div>
         </div>
         <div className="pt-8 border-t border-border">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Wazoo. All rights reserved.
+            © {new Date().getFullYear()} Wazoo Web Design. All rights reserved.
           </p>
         </div>
       </div>

@@ -21,9 +21,7 @@ export const metadata: Metadata = {
       { url: "/wazoo-logo.png", sizes: "16x16", type: "image/png" },
     ],
     shortcut: "/wazoo-logo.png",
-    apple: [
-      { url: "/wazoo-logo.png", sizes: "180x180", type: "image/png" },
-    ],
+    apple: [{ url: "/wazoo-logo.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
     title: "Wazoo — Web Design for Artists & Creative Professionals",
