@@ -20,7 +20,7 @@ export function Header() {
               height={40}
               className="w-8 h-8 sm:w-10 sm:h-10"
             />
-            <span className="text-xl sm:text-2xl font-normal tracking-tight">
+            <span className="text-xl sm:text-2xl font-display font-normal tracking-tight">
               Wazoo
             </span>
           </div>
