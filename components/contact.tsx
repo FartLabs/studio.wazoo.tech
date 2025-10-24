@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 export function Contact() {
-
   return (
     <section
       id="contact"
@@ -16,19 +15,20 @@ export function Contact() {
             Let&apos;s discuss your project and see if we&apos;re a good fit.
           </p>
           <p className="text-sm text-muted-foreground/80">
-            Most inquiries answered within 24 hours • Free 30-minute consultation
+            Most inquiries answered within 24 hours • Free 30-minute
+            consultation
           </p>
         </div>
 
         <div className="text-center">
-          <Button 
-            asChild 
-            size="lg" 
+          <Button
+            asChild
+            size="lg"
             className="w-full sm:w-auto text-lg px-8 py-4"
           >
-            <a 
-              href="https://etok.me/meet" 
-              target="_blank" 
+            <a
+              href="https://etok.me/meet"
+              target="_blank"
               rel="noopener"
               className="inline-flex items-center justify-center"
             >

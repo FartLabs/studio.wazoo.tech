@@ -22,7 +22,7 @@ const projects = [
     title: "FartLabs",
     description: "R&D lab • Brand and web",
     url: "https://fartlabs.org",
-    image: null
+    image: null,
   },
   {
     title: "Shop",
@@ -61,15 +61,15 @@ export function Work() {
               className="group overflow-hidden border-border hover:border-foreground/20 transition-all duration-300 cursor-pointer"
             >
               {project.image && (
-              <div className="aspect-[4/3] overflow-hidden bg-muted">
+                <div className="aspect-[4/3] overflow-hidden bg-muted">
                   <Image
                     src={project.image}
                     alt={`${project.title} website screenshot`}
                     width={400}
                     height={300}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               )}
               <div className="p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-display font-normal mb-2">
@@ -80,12 +80,14 @@ export function Work() {
                 </p>
                 <a
                   href={project.url}
-                  target={project.url.startsWith('http') ? '_blank' : '_self'}
-                  rel={project.url.startsWith('http') ? 'noopener' : undefined}
+                  target={project.url.startsWith("http") ? "_blank" : "_self"}
+                  rel={project.url.startsWith("http") ? "noopener" : undefined}
                   className="text-sm text-foreground hover:text-muted-foreground transition-colors"
                   aria-label={`Visit ${project.title} project`}
-                    >
-                  {project.url.replace('https://', '').replace('http://', '')} {project.url.startsWith('http') ? '↗' : '→'}
+                >
+                  {project.url.replace("https://", "").replace("http://", "")}
+                  {" "}
+                  {project.url.startsWith("http") ? "↗" : "→"}
                 </a>
               </div>
             </Card>

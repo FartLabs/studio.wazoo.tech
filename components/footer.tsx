@@ -6,8 +6,9 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-normal mb-4">Wazoo</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A boutique web design studio specializing in portfolio websites, ecommerce stores, 
-              and brand identity for artists, photographers, and creative professionals.
+              A boutique web design studio specializing in portfolio websites,
+              ecommerce stores, and brand identity for artists, photographers,
+              and creative professionals.
             </p>
           </div>
           <div>
@@ -18,18 +19,6 @@ export function Footer() {
                 className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 LinkedIn
-              </a>
-              <a
-                href="#"
-                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Instagram
-              </a>
-              <a
-                href="#"
-                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Dribbble
               </a>
             </div>
           </div>

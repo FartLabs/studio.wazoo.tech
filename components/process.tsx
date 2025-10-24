@@ -2,22 +2,26 @@ const processSteps = [
   {
     number: "01",
     title: "Discover & Understand",
-    description: "We start by understanding your creative vision, target audience, and project goals. Through a discovery call, we review examples, define scope, and establish clear expectations for timeline and deliverables.",
+    description:
+      "We start by understanding your creative vision, target audience, and project goals. Through a discovery call, we review examples, define scope, and establish clear expectations for timeline and deliverables.",
   },
   {
     number: "02",
     title: "Design & Iterate",
-    description: "Create initial designs in Figma with your brand and aesthetic in mind. You'll receive Loom video walkthroughs of the designs, with two rounds of revisions included to ensure everything feels right.",
+    description:
+      "Create initial designs in Figma with your brand and aesthetic in mind. You'll receive Loom video walkthroughs of the designs, with two rounds of revisions included to ensure everything feels right.",
   },
   {
     number: "03",
     title: "Build & Test",
-    description: "Develop your site with clean code, fast performance, and mobile optimization. Each feature is tested across devices and browsers. You'll see progress updates and can provide feedback before launch.",
+    description:
+      "Develop your site with clean code, fast performance, and mobile optimization. Each feature is tested across devices and browsers. You'll see progress updates and can provide feedback before launch.",
   },
   {
     number: "04",
     title: "Launch & Support",
-    description: "Deploy your site with proper domain setup, analytics integration, and SEO basics. Includes training on managing your content and 30 days of post-launch support for any questions or adjustments.",
+    description:
+      "Deploy your site with proper domain setup, analytics integration, and SEO basics. Includes training on managing your content and 30 days of post-launch support for any questions or adjustments.",
   },
 ];
 
@@ -30,7 +34,8 @@ export function Process() {
             Our process
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            A clear, collaborative approach to bringing your creative vision online
+            A clear, collaborative approach to bringing your creative vision
+            online
           </p>
         </div>
 

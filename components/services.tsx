@@ -4,28 +4,32 @@ const services = [
   {
     number: "01",
     title: "Portfolio Websites",
-    description: "Showcase your creative work with custom portfolio sites. Includes responsive design, image galleries, about/contact pages, and CMS integration. Perfect for photographers, illustrators, and designers.",
+    description:
+      "Showcase your creative work with custom portfolio sites. Includes responsive design, image galleries, about/contact pages, and CMS integration. Perfect for photographers, illustrators, and designers.",
     deliverables: "10-15 pages, mobile-optimized galleries, 2 revision rounds",
     timeline: "2-3 weeks",
   },
   {
     number: "02",
     title: "Ecommerce Stores",
-    description: "Sell your art, prints, or products online with custom Shopify or headless commerce builds. Includes product pages, cart, checkout integration, and payment processing.",
+    description:
+      "Sell your art, prints, or products online with custom Shopify or headless commerce builds. Includes product pages, cart, checkout integration, and payment processing.",
     deliverables: "Full storefront, payment setup, inventory management",
     timeline: "4-6 weeks",
   },
   {
     number: "03",
     title: "Brand Identity & Web Design",
-    description: "Complete digital presence from logo design to website launch. We help define your visual identity and build a cohesive online brand that resonates with your audience.",
+    description:
+      "Complete digital presence from logo design to website launch. We help define your visual identity and build a cohesive online brand that resonates with your audience.",
     deliverables: "Logo, color palette, typography, website design",
     timeline: "4-8 weeks",
   },
   {
     number: "04",
     title: "Website Optimization",
-    description: "Improve your existing site's performance, speed, and user experience. We audit, diagnose friction points, and implement targeted improvements for better results.",
+    description:
+      "Improve your existing site's performance, speed, and user experience. We audit, diagnose friction points, and implement targeted improvements for better results.",
     deliverables: "Performance audit, speed optimization, UX improvements",
     timeline: "1-2 weeks",
   },
@@ -63,8 +67,12 @@ export function Services() {
                     {service.description}
                   </p>
                   <div className="space-y-1 text-xs text-muted-foreground">
-                    <p><strong>Includes:</strong> {service.deliverables}</p>
-                    <p><strong>Timeline:</strong> {service.timeline}</p>
+                    <p>
+                      <strong>Includes:</strong> {service.deliverables}
+                    </p>
+                    <p>
+                      <strong>Timeline:</strong> {service.timeline}
+                    </p>
                   </div>
                 </div>
               </div>

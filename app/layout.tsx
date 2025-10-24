@@ -13,7 +13,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Wazoo — Web Design for Artists & Creative Professionals",
-  description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. Beautiful design, fast performance, delivered in 2-4 weeks.",
+  description:
+    "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. Beautiful design, fast performance, delivered in 2-4 weeks.",
   icons: {
     icon: [
       { url: "/wazoo-logo.png", sizes: "32x32", type: "image/png" },
@@ -26,7 +27,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Wazoo — Web Design for Artists & Creative Professionals",
-    description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
+    description:
+      "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
     type: "website",
     images: [
       {
@@ -40,7 +42,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wazoo — Web Design for Artists & Creative Professionals",
-    description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
+    description:
+      "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
     images: ["/wazoo-logo.png"],
   },
   generator: "v0.app",
