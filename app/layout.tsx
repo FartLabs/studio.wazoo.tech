@@ -15,14 +15,33 @@ export const metadata: Metadata = {
   title: "Wazoo — Web Design for Artists & Creative Professionals",
   description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. Beautiful design, fast performance, delivered in 2-4 weeks.",
   icons: {
-    icon: "/wazoo-logo.png",
+    icon: [
+      { url: "/wazoo-logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/wazoo-logo.png", sizes: "16x16", type: "image/png" },
+    ],
     shortcut: "/wazoo-logo.png",
-    apple: "/wazoo-logo.png",
+    apple: [
+      { url: "/wazoo-logo.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   openGraph: {
     title: "Wazoo — Web Design for Artists & Creative Professionals",
     description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
     type: "website",
+    images: [
+      {
+        url: "/wazoo-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Wazoo Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wazoo — Web Design for Artists & Creative Professionals",
+    description: "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
+    images: ["/wazoo-logo.png"],
   },
   generator: "v0.app",
 };
