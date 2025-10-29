@@ -16,6 +16,13 @@ const projects = [
     image: "/romanceplanet.png",
   },
   {
+    title: "Hospitality Carpet & Floors",
+    description:
+      "Premium carpet, floor, and ceiling cleaning for San Diego hospitality — consultation-first website",
+    url: "https://hospitality-carpet-and-floors.vercel.app/",
+    image: "/hospitality-carpet-and-floors.png",
+  },
+  {
     title: "Trek Inside",
     description:
       "A visual archive of images from a trek inside the set of Star Trek: The Next Generation.",
