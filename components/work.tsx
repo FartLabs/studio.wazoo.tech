@@ -3,25 +3,12 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Berryblue",
-    description:
-      "Self-produced pop artist • Musical background infused into catchy, vulgar and upbeat songs",
-    url: "https://ethanthatonekid.github.io/berryblue.html",
-    image: "/berryblue.png",
+    title: "FartLabs",
+    description: "R&D lab • Brand and web",
+    url: "https://fartlabs.org/",
+    image: "/fartlabs.png",
   },
-  {
-    title: "RomancePlanet",
-    description: "Electronic music artist • 1.5M+ monthly listeners",
-    url: "https://romanceplanet.vercel.app/",
-    image: "/romanceplanet.png",
-  },
-  {
-    title: "Hospitality Carpet & Floors",
-    description:
-      "Premium carpet, floor, and ceiling cleaning for San Diego hospitality — consultation-first website",
-    url: "https://hospitality-carpet-and-floors.vercel.app/",
-    image: "/hospitality-carpet-and-floors.png",
-  },
+
   {
     title: "Trek Inside",
     description:
@@ -30,15 +17,17 @@ const projects = [
     image: "/trekinside.png",
   },
   {
-    title: "FartLabs",
-    description: "R&D lab • Brand and web",
-    url: "https://fartlabs.org/",
-    image: "/fartlabs.png",
+    title: "Hospitality Carpet & Floors",
+    description:
+      "Premium carpet, floor, and ceiling cleaning for San Diego hospitality — consultation-first website",
+    url: "https://hospitality-carpet-and-floors.vercel.app/",
+    image: "/hospitality-carpet-and-floors.png",
   },
+
   {
     title: "jsonx",
     description:
-      "Developer tool • Custom docs site and playground for the jsonx libraries",
+      "Developer tool • Retro-themed docs site and playground for the jsonx libraries",
     url: "https://jsonx.fart.tools/",
     image: "/jsonx.png",
   },
@@ -53,6 +42,19 @@ const projects = [
     description: "Catalog of forms for the skilled nursing facility industry",
     url: "https://snfforms.deno.dev/",
     image: "/snfforms.png",
+  },
+  {
+    title: "RomancePlanet",
+    description: "Electronic music artist • 1.5M+ monthly listeners",
+    url: "https://romanceplanet.vercel.app/",
+    image: "/romanceplanet.png",
+  },
+  {
+    title: "Berryblue",
+    description:
+      "Self-produced pop artist • Musical background infused into catchy, vulgar and upbeat songs",
+    url: "https://ethanthatonekid.github.io/berryblue.html",
+    image: "/berryblue.png",
   },
 ];
 
