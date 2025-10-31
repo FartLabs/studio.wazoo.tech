@@ -1,7 +1,10 @@
+import { LightRays } from "@/components/ui/light-rays";
+
 export function Hero() {
   return (
-    <section className="pt-32 sm:pt-40 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto max-w-5xl">
+    <section className="relative pt-32 sm:pt-40 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <LightRays />
+      <div className="container mx-auto max-w-5xl relative z-10">
         <div className="space-y-6 sm:space-y-8">
           <p className="text-sm sm:text-base text-muted-foreground">
             Web Design Studio
