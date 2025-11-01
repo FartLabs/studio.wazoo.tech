@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -39,6 +40,12 @@ export function Header() {
             >
               Services
             </a>
+            <Link
+              href="/blog"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Blog
+            </Link>
             <a
               href="#contact"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -80,6 +87,13 @@ export function Header() {
               >
                 Services
               </a>
+              <Link
+                href="/blog"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
+              </Link>
               <a
                 href="#contact"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
