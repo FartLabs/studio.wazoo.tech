@@ -12,6 +12,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://studio.wazoo.tech"
+  ),
   title: "Wazoo Web Design Studio",
   description:
     "A data-driven web studio for artists and creative professionals. We build portfolios that get you more clients and sell more art. Portfolio optimizations in 48 hours. Metrics-driven design focused on real outcomes.",

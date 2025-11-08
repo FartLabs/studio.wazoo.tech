@@ -16,7 +16,7 @@ export function Hero() {
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-normal leading-tight text-balance">
-            We build portfolios that get you more clients and sell more art
+            We build portfolios that sell your art
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
             A data-driven web studio for artists, photographers, and creative
