@@ -9,10 +9,10 @@ export function Contact() {
       <div className="container mx-auto max-w-4xl">
         <div className="mb-12 sm:mb-16 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4 text-balance">
-            Ready to bring your creative vision online?
+            Let&apos;s build something great together
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-2">
-            Let&apos;s discuss your project and see if we&apos;re a good fit.
+            We&apos;re a team of designers and developers who are passionate about building portfolios that help artists achieve their goals: get more clients, sell more art, and build a stronger brand.
           </p>
           <p className="text-sm text-muted-foreground/80">
             Most inquiries answered within 24 hours • Free 30-minute
@@ -32,7 +32,7 @@ export function Contact() {
               rel="noopener"
               className="inline-flex items-center justify-center"
             >
-              Book a Free Consultation
+              Start your project
             </a>
           </Button>
         </div>

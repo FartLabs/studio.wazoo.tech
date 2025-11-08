@@ -14,7 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Wazoo Web Design Studio",
   description:
-    "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands. World-class design, fast performance, delivered with attention to detail.",
+    "A data-driven web studio for artists and creative professionals. We build portfolios that get you more clients and sell more art. Portfolio optimizations in 48 hours. Metrics-driven design focused on real outcomes.",
   icons: {
     icon: [
       { url: "/wazoo-logo.png", sizes: "32x32", type: "image/png" },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wazoo — Web Design for Artists & Creative Professionals",
     description:
-      "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
+      "A data-driven web studio for artists and creative professionals. Portfolios that get more clients and sell more art. Portfolio optimizations in 48 hours.",
     type: "website",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Wazoo — Web Design for Artists & Creative Professionals",
     description:
-      "Custom portfolio websites and ecommerce stores for artists, photographers, and creative brands.",
+      "A data-driven web studio for artists and creative professionals. Portfolios that get more clients and sell more art. Portfolio optimizations in 48 hours.",
     images: ["/wazoo-logo.png"],
   },
   generator: "v0.app",

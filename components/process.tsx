@@ -1,27 +1,27 @@
 const processSteps = [
   {
     number: "01",
-    title: "Discover & Understand",
+    title: "Diagnose the Opportunity",
     description:
-      "We start by understanding your creative vision, target audience, and project goals. Through a discovery call, we review examples, define scope, and establish clear expectations for timeline and deliverables.",
+      "We use analytics and heatmap tools to see where visitors get stuck, what they click on, and where they drop off. Are potential clients leaving before contacting you? Is your best work buried in the gallery? Every insight is grounded in real data about how people interact with your site.",
   },
   {
     number: "02",
-    title: "Design & Iterate",
+    title: "Intervene with Purpose",
     description:
-      "Create initial designs in Figma with your brand and aesthetic in mind. You'll receive Loom video walkthroughs of the designs, with two rounds of revisions included to ensure everything feels right.",
+      "Based on the data, we implement high-impact changes: optimize CTAs to get more inquiries, simplify contact forms to reduce friction, add trust signals like testimonials, or reorganize galleries to showcase your best work first. No bloated redesigns—just precise updates that drive results.",
   },
   {
     number: "03",
-    title: "Build & Test",
+    title: "Ship with Clarity",
     description:
-      "Develop your site with clean code, fast performance, and mobile optimization. Each feature is tested across devices and browsers. You'll see progress updates and can provide feedback before launch.",
+      "Each change ships on a clear timeline with Figma frames, Loom walkthroughs, and versioned code or design links. You'll see exactly what's being done and why, before anything goes live. We connect every design decision to your goals: more clients, more sales, stronger brand.",
   },
   {
     number: "04",
-    title: "Launch & Support",
+    title: "Report and Iterate",
     description:
-      "Deploy your site with proper domain setup, analytics integration, and SEO basics. Includes training on managing your content and 30 days of post-launch support for any questions or adjustments.",
+      "We deliver a before-and-after report showing the improvements. Then we track artist-focused metrics: contact form submissions, e-commerce conversion, newsletter signups. If something works, we build on it. If not, we refine. That's how we turn single wins into long-term growth.",
   },
 ];
 
@@ -34,8 +34,7 @@ export function Process() {
             Our process
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            A clear, collaborative approach to bringing your creative vision
-            online
+            Our process blends creative precision with data-driven insights. Every engagement focuses on achieving your specific goals: get more clients, sell more art, or build a stronger brand.
           </p>
         </div>
 
