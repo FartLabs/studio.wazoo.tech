@@ -3,6 +3,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Card } from "@/components/ui/card";
 import { getAllPosts } from "@/lib/blog";
+import { calculate } from "@iamtraction/read-time";
 
 export const metadata = {
   title: "Blog | Wazoo Web Design Studio",
@@ -38,12 +39,18 @@ export default function BlogPage() {
                 <Link key={post.slug} href={`/blog/${post.slug}`}>
                   <Card className="h-full overflow-hidden border-border hover:border-foreground/20 transition-all duration-300 cursor-pointer">
                     <div className="p-6 sm:p-8">
-                      <div className="text-sm text-muted-foreground mb-2">
-                        {new Date(post.date).toLocaleDateString("en-US", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
+                      <div className="text-sm text-muted-foreground mb-2 flex items-center gap-2 flex-wrap">
+                        <time dateTime={post.date}>
+                          {new Date(post.date).toLocaleDateString("en-US", {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                          })}
+                        </time>
+                        <span>•</span>
+                        <span>
+                          {calculate(post.content, { wpm: 200 })} read
+                        </span>
                       </div>
                       <h2 className="text-xl sm:text-2xl font-display font-normal mb-3">
                         {post.title}
