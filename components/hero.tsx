@@ -19,7 +19,12 @@ export function Hero() {
             We build portfolios that get you more clients and sell more art
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            A data-driven web studio for artists, photographers, and creative professionals. We build high-performance portfolio sites designed to convert visitors into clients. Fast-loading sites mean potential buyers won't click away, and strategic layouts guide them directly to your contact or commission page. Portfolio optimizations in 48 hours. Most projects delivered in 1-4 weeks.
+            A data-driven web studio for artists, photographers, and creative
+            professionals. We build high-performance portfolio sites designed to
+            convert visitors into clients. Fast-loading sites mean potential
+            buyers won't click away, and strategic layouts guide them directly
+            to your contact or commission page. Portfolio optimizations in 48
+            hours. Most projects delivered in 1-4 weeks.
           </p>
           <div className="pt-4">
             <Button asChild size="lg" className="text-base px-8 py-6">

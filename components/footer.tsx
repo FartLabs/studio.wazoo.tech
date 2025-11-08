@@ -6,7 +6,9 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-display mb-4">Wazoo</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A data-driven web studio for artists and creative professionals. We build portfolios that get you more clients and sell more art. Metrics-driven design focused on real outcomes.
+              A data-driven web studio for artists and creative professionals.
+              We build portfolios that get you more clients and sell more art.
+              Metrics-driven design focused on real outcomes.
             </p>
           </div>
           <div>

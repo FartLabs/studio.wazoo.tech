@@ -70,7 +70,9 @@ export function Work() {
             Selected work
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            We work with artists and creatives who care about design and results. Here's how that combination helps them get more clients and sell more art.
+            We work with artists and creatives who care about design and
+            results. Here's how that combination helps them get more clients and
+            sell more art.
           </p>
         </div>
 

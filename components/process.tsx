@@ -34,7 +34,9 @@ export function Process() {
             Our process
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Our process blends creative precision with data-driven insights. Every engagement focuses on achieving your specific goals: get more clients, sell more art, or build a stronger brand.
+            Our process blends creative precision with data-driven insights.
+            Every engagement focuses on achieving your specific goals: get more
+            clients, sell more art, or build a stronger brand.
           </p>
         </div>
 

@@ -33,7 +33,8 @@ const services = [
     title: "Brand Identity & Web Design",
     description:
       "Complete digital presence from logo design to website launch. We help define your visual identity and build a cohesive online brand that resonates with your audience and builds trust—essential for converting visitors into clients and buyers.",
-    deliverables: "Logo, color palette, typography, website design, brand guidelines",
+    deliverables:
+      "Logo, color palette, typography, website design, brand guidelines",
     timeline: "3-6 weeks",
   },
   {
@@ -65,7 +66,9 @@ export function Services() {
             Our services
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Data-driven services designed to help artists achieve real outcomes: get more clients, sell more art, and build a stronger brand. Every project connects design decisions to tangible business results.
+            Data-driven services designed to help artists achieve real outcomes:
+            get more clients, sell more art, and build a stronger brand. Every
+            project connects design decisions to tangible business results.
           </p>
         </div>
 

@@ -12,7 +12,9 @@ export function Contact() {
             Let&apos;s build something great together
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-2">
-            We&apos;re a team of designers and developers who are passionate about building portfolios that help artists achieve their goals: get more clients, sell more art, and build a stronger brand.
+            We&apos;re a team of designers and developers who are passionate
+            about building portfolios that help artists achieve their goals: get
+            more clients, sell more art, and build a stronger brand.
           </p>
           <p className="text-sm text-muted-foreground/80">
             Most inquiries answered within 24 hours • Free 30-minute
