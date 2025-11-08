@@ -17,7 +17,8 @@ export function Hero() {
             A boutique web design studio specializing in portfolio websites,
             ecommerce stores, and brand identity for artists, photographers, and
             creative brands. Clean design, fast performance, and founder-led
-            communication. Most projects delivered in 2-4 weeks.
+            communication. Product page fixes in 48 hours. Most projects
+            delivered in 1-4 weeks.
           </p>
         </div>
       </div>

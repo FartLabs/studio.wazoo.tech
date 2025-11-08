@@ -3,35 +3,44 @@ import { Card } from "@/components/ui/card";
 const services = [
   {
     number: "01",
+    title: "Product Page Fixes",
+    description:
+      "Rapid product page makeovers to improve conversion and clarity. Quick fixes for layout, hierarchy, visuals, and UX friction. Perfect for brands needing fast, measurable improvements to their product pages.",
+    deliverables:
+      "Redesigned product pages, UX improvements, conversion optimization",
+    timeline: "48 hours",
+  },
+  {
+    number: "02",
     title: "Portfolio Websites",
     description:
       "Showcase your creative work with custom portfolio sites. Includes responsive design, image galleries, about/contact pages, and CMS integration. Perfect for photographers, illustrators, and designers.",
     deliverables: "10-15 pages, mobile-optimized galleries, 2 revision rounds",
-    timeline: "2-3 weeks",
+    timeline: "1-2 weeks",
   },
   {
-    number: "02",
+    number: "03",
     title: "Ecommerce Stores",
     description:
       "Sell your art, prints, or products online with custom Shopify or headless commerce builds. Includes product pages, cart, checkout integration, and payment processing.",
     deliverables: "Full storefront, payment setup, inventory management",
-    timeline: "4-6 weeks",
+    timeline: "2-4 weeks",
   },
   {
-    number: "03",
+    number: "04",
     title: "Brand Identity & Web Design",
     description:
       "Complete digital presence from logo design to website launch. We help define your visual identity and build a cohesive online brand that resonates with your audience.",
     deliverables: "Logo, color palette, typography, website design",
-    timeline: "4-8 weeks",
+    timeline: "3-6 weeks",
   },
   {
-    number: "04",
+    number: "05",
     title: "Website Optimization",
     description:
       "Improve your existing site's performance, speed, and user experience. We audit, diagnose friction points, and implement targeted improvements for better results.",
     deliverables: "Performance audit, speed optimization, UX improvements",
-    timeline: "1-2 weeks",
+    timeline: "3-5 days",
   },
 ];
 
