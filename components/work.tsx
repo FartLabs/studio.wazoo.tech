@@ -3,18 +3,10 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "FartLabs",
-    description: "R&D lab • Brand and web",
-    url: "https://fartlabs.org/",
-    image: "/fartlabs.png",
-  },
-
-  {
-    title: "Trek Inside",
-    description:
-      "A visual archive of images from a trek inside the set of Star Trek: The Next Generation.",
-    url: "https://ethanthatonekid.github.io/trek-inside/",
-    image: "/trekinside.png",
+    title: "RomancePlanet",
+    description: "Electronic music artist • 1.5M+ monthly listeners",
+    url: "https://romanceplanet.vercel.app/",
+    image: "/romanceplanet.png",
   },
   {
     title: "Hospitality Carpet & Floors",
@@ -23,38 +15,18 @@ const projects = [
     url: "https://hospitality-carpet-and-floors.vercel.app/",
     image: "/hospitality-carpet-and-floors.png",
   },
-
-  {
-    title: "jsonx",
-    description:
-      "Developer tool • Retro-themed docs site and playground for the jsonx libraries",
-    url: "https://jsonx.fart.tools/",
-    image: "/jsonx.png",
-  },
   {
     title: "Looksie",
     description: "Tinder for clothes AI platform",
     url: "https://trylooksie.vercel.app/",
     image: "/looksie.png",
   },
+
   {
-    title: "snfforms.com",
-    description: "Catalog of forms for the skilled nursing facility industry",
-    url: "https://snfforms.deno.dev/",
-    image: "/snfforms.png",
-  },
-  {
-    title: "RomancePlanet",
-    description: "Electronic music artist • 1.5M+ monthly listeners",
-    url: "https://romanceplanet.vercel.app/",
-    image: "/romanceplanet.png",
-  },
-  {
-    title: "Berryblue",
-    description:
-      "Self-produced pop artist • Musical background infused into catchy, vulgar and upbeat songs",
-    url: "https://ethanthatonekid.github.io/berryblue.html",
-    image: "/berryblue.png",
+    title: "FartLabs",
+    description: "R&D lab • Brand and web with a humorous spin",
+    url: "https://fartlabs.org/",
+    image: "/fartlabs.png",
   },
 ];
 
@@ -67,12 +39,11 @@ export function Work() {
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4">
-            Selected work
+            Selected works
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            We work with artists and creatives who care about design and
-            results. Here's how that combination helps them get more clients and
-            sell more art.
+            Strategic partnerships with brands, startups, and creatives who
+            value both exceptional craft and measurable outcomes.
           </p>
         </div>
 
@@ -83,13 +54,13 @@ export function Work() {
               className="group overflow-hidden border-border hover:border-foreground/20 transition-all duration-300 cursor-pointer"
             >
               {project.image && (
-                <div className="aspect-[4/3] overflow-hidden bg-muted flex items-center justify-center">
+                <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                   <Image
                     src={project.image}
                     alt={`${project.title} website screenshot`}
-                    width={400}
-                    height={300}
-                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               )}

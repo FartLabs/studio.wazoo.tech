@@ -9,22 +9,18 @@ export function Hero() {
         <div className="space-y-6 sm:space-y-8">
           <div className="flex items-center gap-3 flex-wrap">
             <p className="text-sm sm:text-base text-muted-foreground">
-              Web Design Studio
+              Digital Product Studio
             </p>
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
-              Portfolio optimization in 48h
+              Small team, senior expertise
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-normal leading-tight text-balance">
-            We build portfolios that sell your art
+            Strategic craft that drives results
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            A data-driven web studio for artists, photographers, and creative
-            professionals. We build high-performance portfolio sites designed to
-            convert visitors into clients. Fast-loading sites mean potential
-            buyers won't click away, and strategic layouts guide them directly
-            to your contact or commission page. Portfolio optimizations in 48
-            hours. Most projects delivered in 1-4 weeks.
+            Every project starts with understanding your brand&#39;s reason for
+            being, then translates that into digital experiences that perform.
           </p>
           <div className="pt-4">
             <Button asChild size="lg" className="text-base px-8 py-6">

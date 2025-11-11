@@ -3,56 +3,56 @@ import { Card } from "@/components/ui/card";
 const services = [
   {
     number: "01",
-    title: "Portfolio Optimization Packages",
+    title: "Brand Strategy & Digital Identity",
     description:
-      "Data-driven optimization for existing artist sites (even ones we didn't build). We use analytics and heatmaps to find where potential clients drop off, then implement high-impact fixes. A/B test CTAs, simplify contact forms, add trust signals, and optimize gallery layouts to get more inquiries and sales.",
+      "Complete brand ecosystems from strategy to implementation. We help define your brand&#39;s reason for being, then translate that into a cohesive visual identity and digital presence. This isn&#39;t just a logo and website—it&#39;s a complete brand world that reflects your position in the market.",
     deliverables:
-      "Analytics audit, heatmap analysis, UX improvements, before-and-after report, conversion optimization",
-    timeline: "48 hours - 1 week",
+      "Brand strategy, visual identity, logo, color palette, typography, brand guidelines, website design",
+    timeline: "4-8 weeks",
   },
   {
     number: "02",
-    title: "Strategic Portfolio Websites",
+    title: "Strategic Digital Products",
     description:
-      "A strategic portfolio that functions as your 24/7 sales agent. We use proven design principles to not only showcase your work but also to build trust and encourage inquiries. Designed to convert visitors into clients, not just display your art beautifully.",
+      "Sophisticated websites and web applications built with strategic intent. We start by understanding your brand&#39;s position and goals, then craft digital experiences that reflect that strategy with precision. Every design decision serves both your brand and your business objectives.",
     deliverables:
-      "10-15 pages, mobile-optimized galleries, contact/commission flow, analytics setup, 2 revision rounds",
-    timeline: "1-2 weeks",
+      "Custom website or application, strategic UX, responsive design, performance optimization, analytics setup",
+    timeline: "3-8 weeks",
   },
   {
     number: "03",
-    title: "Ecommerce Stores for Artists",
+    title: "Ecommerce & Digital Commerce",
     description:
-      "Sell your art, prints, or products online with custom Shopify or headless commerce builds. Metrics-driven design focused on getting more sales. Includes optimized product pages, streamlined checkout, and payment processing—all designed to reduce friction and increase revenue.",
+      "Brand-led commerce experiences that blend strategic thinking with conversion optimization. We build custom Shopify or headless commerce solutions that reflect your brand&#39;s identity while driving sales. Every element—from product pages to checkout—is crafted with both brand and business in mind.",
     deliverables:
-      "Full storefront, payment setup, inventory management, analytics integration, conversion optimization",
-    timeline: "2-4 weeks",
+      "Custom storefront, payment integration, inventory management, conversion optimization, analytics",
+    timeline: "4-10 weeks",
   },
   {
     number: "04",
-    title: "Brand Identity & Web Design",
+    title: "Digital Experience Optimization",
     description:
-      "Complete digital presence from logo design to website launch. We help define your visual identity and build a cohesive online brand that resonates with your audience and builds trust—essential for converting visitors into clients and buyers.",
+      "Strategic improvements to existing digital properties. We audit your current experience through both a brand lens and performance metrics, then implement targeted enhancements that elevate both craft and outcomes. Works with sites we&#39;ve built or existing properties.",
     deliverables:
-      "Logo, color palette, typography, website design, brand guidelines",
-    timeline: "3-6 weeks",
+      "Strategic audit, brand alignment review, UX improvements, performance optimization, before-and-after analysis",
+    timeline: "1-3 weeks",
   },
   {
     number: "05",
-    title: "Website Performance Optimization",
+    title: "Performance & Technical Excellence",
     description:
-      "Improve your existing site's performance, speed, and user experience. We audit, diagnose friction points, and implement targeted improvements. A fast-loading site means potential buyers won't click away, directly impacting your ability to get more clients and sales.",
+      "Technical craft that matches strategic thinking. We optimize existing sites for speed, performance, and user experience—ensuring your digital presence performs as well as it looks. Fast-loading, accessible, and built to last.",
     deliverables:
-      "Performance audit, speed optimization, UX improvements, before-and-after metrics",
-    timeline: "3-5 days",
+      "Performance audit, speed optimization, accessibility improvements, technical documentation",
+    timeline: "1-2 weeks",
   },
   {
     number: "06",
-    title: "Creative Growth & Analytics Retainers",
+    title: "Ongoing Strategic Partnership",
     description:
-      "Monthly partnership focused on achieving your specific goals: get more clients, sell more art, or build a stronger brand. We track artist-focused metrics (contact form submissions, e-commerce conversion, newsletter signups) and make one data-backed improvement each month to drive compounding growth.",
+      "Long-term collaboration focused on continuous improvement and strategic growth. We work as an extension of your team, making strategic improvements that compound over time. Track metrics that matter, iterate on what works, and evolve your digital presence as your brand grows.",
     deliverables:
-      "Monthly analytics reports, continuous optimization, A/B testing, SEO improvements, goal tracking",
+      "Monthly strategic reviews, continuous optimization, performance tracking, iterative improvements",
     timeline: "Ongoing",
   },
 ];
@@ -66,9 +66,10 @@ export function Services() {
             Our services
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Data-driven services designed to help artists achieve real outcomes:
-            get more clients, sell more art, and build a stronger brand. Every
-            project connects design decisions to tangible business results.
+            Strategic brand-led digital work that blends deep thinking with
+            exceptional craft. Every project starts with understanding your
+            brand&#39;s position, then translates that strategy into digital
+            experiences that perform.
           </p>
         </div>
 

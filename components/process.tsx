@@ -1,27 +1,27 @@
 const processSteps = [
   {
     number: "01",
-    title: "Diagnose the Opportunity",
+    title: "Strategic Discovery",
     description:
-      "We use analytics and heatmap tools to see where visitors get stuck, what they click on, and where they drop off. Are potential clients leaving before contacting you? Is your best work buried in the gallery? Every insight is grounded in real data about how people interact with your site.",
+      "We start by understanding your brand&#39;s position in the market, your goals, and what makes you distinct. This isn&#39;t just a brief—it&#39;s a deep dive into your brand&#39;s reason for being. We ask the hard questions, challenge assumptions, and develop a strategic foundation that informs every decision that follows.",
   },
   {
     number: "02",
-    title: "Intervene with Purpose",
+    title: "Craft with Intent",
     description:
-      "Based on the data, we implement high-impact changes: optimize CTAs to get more inquiries, simplify contact forms to reduce friction, add trust signals like testimonials, or reorganize galleries to showcase your best work first. No bloated redesigns—just precise updates that drive results.",
+      "With strategy as our guide, we craft digital experiences that reflect your brand with precision. Every design decision—from typography to interaction—serves both your brand identity and your business objectives. We blend exceptional craft with strategic thinking, ensuring form and function work in harmony.",
   },
   {
     number: "03",
-    title: "Ship with Clarity",
+    title: "Build & Refine",
     description:
-      "Each change ships on a clear timeline with Figma frames, Loom walkthroughs, and versioned code or design links. You'll see exactly what's being done and why, before anything goes live. We connect every design decision to your goals: more clients, more sales, stronger brand.",
+      "We build with the same attention to detail we bring to strategy and design. You work directly with senior practitioners throughout the process, with clear communication and transparent timelines. Every deliverable connects back to the strategic foundation we established, ensuring consistency from concept to launch.",
   },
   {
     number: "04",
-    title: "Report and Iterate",
+    title: "Measure & Evolve",
     description:
-      "We deliver a before-and-after report showing the improvements. Then we track artist-focused metrics: contact form submissions, e-commerce conversion, newsletter signups. If something works, we build on it. If not, we refine. That's how we turn single wins into long-term growth.",
+      "After launch, we track what matters: how your digital presence performs against your goals, how it reflects your brand, and where it can evolve. We measure both craft and outcomes, then iterate strategically. Great digital work isn&#39;t finished at launch—it evolves as your brand grows.",
   },
 ];
 
@@ -34,9 +34,10 @@ export function Process() {
             Our process
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Our process blends creative precision with data-driven insights.
-            Every engagement focuses on achieving your specific goals: get more
-            clients, sell more art, or build a stronger brand.
+            Our process blends strategic thinking with exceptional craft. We
+            start with understanding your brand&#39;s position, then translate that
+            strategy into digital experiences that perform. Every step connects
+            back to your goals—both brand and business.
           </p>
         </div>
 
