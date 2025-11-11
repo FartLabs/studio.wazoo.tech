@@ -5,7 +5,7 @@ const services = [
     number: "01",
     title: "Brand Strategy & Digital Identity",
     description:
-      "Complete brand ecosystems from strategy to implementation. We help define your brand&#39;s reason for being, then translate that into a cohesive visual identity and digital presence. This isn&#39;t just a logo and website—it&#39;s a complete brand world that reflects your position in the market.",
+      "From strategy to identity to digital. Define your position, then express it consistently across your brand and web.",
     deliverables:
       "Brand strategy, visual identity, logo, color palette, typography, brand guidelines, website design",
     timeline: "4-8 weeks",
@@ -14,7 +14,7 @@ const services = [
     number: "02",
     title: "Strategic Digital Products",
     description:
-      "Sophisticated websites and web applications built with strategic intent. We start by understanding your brand&#39;s position and goals, then craft digital experiences that reflect that strategy with precision. Every design decision serves both your brand and your business objectives.",
+      "Websites and web apps built with strategic intent. Every decision serves brand and business.",
     deliverables:
       "Custom website or application, strategic UX, responsive design, performance optimization, analytics setup",
     timeline: "3-8 weeks",
@@ -23,7 +23,7 @@ const services = [
     number: "03",
     title: "Ecommerce & Digital Commerce",
     description:
-      "Brand-led commerce experiences that blend strategic thinking with conversion optimization. We build custom Shopify or headless commerce solutions that reflect your brand&#39;s identity while driving sales. Every element—from product pages to checkout—is crafted with both brand and business in mind.",
+      "Brand-led commerce that converts. Custom Shopify or headless builds that reflect identity and drive sales.",
     deliverables:
       "Custom storefront, payment integration, inventory management, conversion optimization, analytics",
     timeline: "4-10 weeks",
@@ -32,7 +32,7 @@ const services = [
     number: "04",
     title: "Digital Experience Optimization",
     description:
-      "Strategic improvements to existing digital properties. We audit your current experience through both a brand lens and performance metrics, then implement targeted enhancements that elevate both craft and outcomes. Works with sites we&#39;ve built or existing properties.",
+      "Targeted, strategic improvements to your existing site—through both a brand lens and performance metrics.",
     deliverables:
       "Strategic audit, brand alignment review, UX improvements, performance optimization, before-and-after analysis",
     timeline: "1-3 weeks",
@@ -41,7 +41,7 @@ const services = [
     number: "05",
     title: "Performance & Technical Excellence",
     description:
-      "Technical craft that matches strategic thinking. We optimize existing sites for speed, performance, and user experience—ensuring your digital presence performs as well as it looks. Fast-loading, accessible, and built to last.",
+      "Speed, accessibility, and durability. Technical excellence that matches strategic thinking.",
     deliverables:
       "Performance audit, speed optimization, accessibility improvements, technical documentation",
     timeline: "1-2 weeks",
@@ -50,7 +50,7 @@ const services = [
     number: "06",
     title: "Ongoing Strategic Partnership",
     description:
-      "Long-term collaboration focused on continuous improvement and strategic growth. We work as an extension of your team, making strategic improvements that compound over time. Track metrics that matter, iterate on what works, and evolve your digital presence as your brand grows.",
+      "Long-term collaboration for continuous, strategic improvement. Measure what matters and iterate.",
     deliverables:
       "Monthly strategic reviews, continuous optimization, performance tracking, iterative improvements",
     timeline: "Ongoing",
@@ -66,10 +66,8 @@ export function Services() {
             Our services
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Strategic brand-led digital work that blends deep thinking with
-            exceptional craft. Every project starts with understanding your
-            brand&#39;s position, then translates that strategy into digital
-            experiences that perform.
+            Strategic, brand-led digital work. We start with positioning and
+            translate it into experiences that perform.
           </p>
         </div>
 

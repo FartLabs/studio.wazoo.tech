@@ -39,11 +39,11 @@ export function Work() {
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal mb-4">
-            Selected works
+            Selected work
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Strategic partnerships with brands, startups, and creatives who
-            value both exceptional craft and measurable outcomes.
+            Strategic partnerships with brands, startups, and creatives who value
+            exceptional craft and measurable outcomes.
           </p>
         </div>
 
